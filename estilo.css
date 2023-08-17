@@ -1,0 +1,298 @@
+/* Estilos CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    flex-wrap: wrap;
+    background-color: #f3f3f3;
+}
+
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.4rem;
+    /** 1rem = 16px **/
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* CABEÇALHO------------------------ */
+
+/**CSS header **/
+/** AREA MENU **/
+.header {
+    width: 100%;
+    background-color: #B763D9;
+    padding: 15px;
+}
+
+.header nav {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.header nav ul {
+    width: 33.33%;
+    text-align: center;
+}
+
+.header nav ul p i a {
+    /* whatsapp */
+    font-size: 18px;
+}
+
+.header nav ul p {
+    /* email */
+    font-size: 18px;
+}
+
+.header nav ul p a {
+    padding: 15px;
+    padding: 05px;
+    font-size: 25px;
+}
+
+.header nav ul p a:hover {
+    transform: scale(1.05);
+    transition: .3s;
+    font-weight: 600;
+}
+
+/** FIM - AREA MENU **/
+
+/** AREA LOGO **/
+.logo {
+    padding: 10px;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.logo ul a .img_logo {
+    width: 300px;
+    height: 70px;
+}
+
+.logo ul {
+    width: 50%;
+}
+
+/** FIM - AREA LOGO **/
+
+/** AREA BTN **/
+.area-btn {
+    padding-right: 15%;
+    display: flex;
+    justify-content: end;
+}
+
+.btn-voltar {
+    font-size: 16px;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 6px;
+    margin-right: 200px;
+    background-color: #B763D9;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    text-align: center;
+}
+
+.btn-voltar:hover {
+    background-color: #b863d9d7;
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+/** FIM - AREA BTN **/
+/* FIM - CABEÇALHO------------------------ */
+
+/* CORPO -------------------------------------- */
+/**CSS form **/
+
+/**EXTRUTURA DA PAGINA **/
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/** FIM - EXTRUTURA DA PAGINA **/
+
+/** Lista de produtos **/
+.area-produtos {
+    padding-top: 35px;
+    padding-bottom: 70px;    
+    align-items: normal;
+}
+
+.titulo_cotacao {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border: none;
+}
+
+.titulo_cotacao h1 {
+    font-size: 40px;
+}
+
+.titulo_cotacao h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.img-cotacao {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.sessao-item {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 05px;
+}
+
+.label-img {
+    margin: 10px;
+}
+
+.input-label-img {
+    background-color: #f3f3f3;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+    width: 72px;
+    height: 50px;
+}
+
+/** FIM -  Lista de produtos **/
+
+/**CSS form **/
+/*FORMULARIO DE COTAÇAO*/
+
+.container .form_area {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.container .form_area input {
+    padding: 10px;
+    outline: none;
+}
+
+.container .form_area p {
+    font-size: 20px;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.container .form_area .aut_whatsApp{
+    font-size: 20px;    
+    padding: 05px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.container .form_area .aut_whatsApp p{
+    padding: 10px;
+}
+
+.container .form-dados label {
+    margin: 10px;
+    width: 150px;
+}
+
+.container .form-dados input {
+    background-color: #f3f3f3;
+    border: none;
+    border-bottom: 1px solid;
+    margin: 10px;
+    width: 570px;
+    height: 20px;
+    border-radius: 05px;
+}
+
+.container #observations {
+    background-color: #f3f3f3;
+    border: 1px solid;
+    border-radius: 05px;
+    width: 570px;
+    margin: 10px;
+    resize: vertical;
+    outline: none;
+}
+
+.form-submit {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.form-submit button {
+    font-size: 16px;
+    padding: 20px 20px;
+    background-color: #B763D9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-submit button:hover {
+    background-color: #b863d9d7;
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+/* - END - FORMULARIO DE COTAÇAO*/
+/* CORPO -------------------------------------- */
+
+/* FOOTER CSS --------------------------------------*/
+footer {
+    width: 100%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #B763D9;
+}
+
+.copy {    
+    display: flex;
+}
+
+footer .copy ul {
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .copy ul,
+p,
+a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+/* END - FOOTER CSS --------------------------------------*/
