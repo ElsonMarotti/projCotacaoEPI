@@ -1,4 +1,9 @@
 /* Estilos CSS */
+
+/* código para anular as 
+setinhas no imput type=number
+dos itens produtos
+*/
 * {
     margin: 0;
     padding: 0;
@@ -11,10 +16,13 @@
        appearance: textfield;
     
     }
- }
+ }/* FIM Setinhas imput=number*/
 
 body {
-    width: 100%;
+    margin: 0;
+	padding: 0;
+	width: 100%;
+    height: 100%;
     font-family: Arial, sans-serif;
     font-size: 16px;
     flex-wrap: wrap;
